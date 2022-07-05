@@ -1,0 +1,63 @@
+body {
+  background-image: url(../img/body-fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.site-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: blue;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  color: #fff;
+}
+
+.film {
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.input {
+  width: 400px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+}
+
+.prev-btn {
+  width: 200px;
+}
+
+.next-btn {
+  width: 200px;
+}
+
+.page-btn {
+  width: 300px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.pages-btn {
+  border: 2px solid blue;
+  background-color: transparent;
+  margin-left: 10px;
+  color: powderblue;
+}
